@@ -108,10 +108,10 @@ export default function TasksPage(){
                         <h6 className="card-text">{d.content}</h6>
                           <div className="row">
                             <div className="col-3">
-                              <button type="button" onClick={() => EditTasks(d)} className="btn btn-Edit btn-primary btn-sm">Edit Task</button>
+                              <button type="button" onClick={() => EditTasks(d)} className="btn btn-Edit button-size btn-primary btn-sm">Edit Task</button>
                             </div>
                             <div className="col-4">
-                              <button type="button" onClick={() => DeleteTasks(d)} className="btn btn-Edit btn-secondary btn-sm">Delete Task</button>
+                              <button type="button" onClick={() => DeleteTasks(d)} className="btn btn-Edit button-size2 btn-secondary btn-sm">Delete Task</button>
                             </div>
                           </div>
                     </div>
