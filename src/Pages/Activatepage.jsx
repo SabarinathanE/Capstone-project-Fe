@@ -31,14 +31,14 @@ export default function ActivationPage(){
                navigate("/login")
             },3000)
         }
-        }).catch((error)=>setMsg(error.message))
+        }).catch((error)=>setMsg("failed"))
     },[])
 
     return(
 
-        <div className="subject-section">
-            <h1 className="text-center align-center justify-center text-secondary text-5xl mb-4 uppercase">{msg}</h1>
-            {msg==="Activation Successfull"?<h1 className="text-center align-center justify-center text-neutral text-2xl uppercase">Redirecting to Login Page</h1>:""}   
+        <div className="subject-activate">
+            <h1 className="text-center align-center justify-center  text-5xl mb-4 uppercase" style={{color: "black"}}>{msg}</h1>
+            {msg==="Activation Successfull"?<h1 className="text-center align-center justify-center text-neutral text-2xl uppercase" style={{color: "black"}}>Redirecting to Login Page</h1>:""}   
         </div>
     )
 }

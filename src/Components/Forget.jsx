@@ -57,7 +57,7 @@ export default function Forgot(){
                     </div>
                         <form onSubmit={handleSubmit}>
                         <div className="card-body">
-                            <input value={values.email} name="email" onBlur={handleBlur} onChange={handleChange} type="text" placeholder="Email Address" className="skeleton input text-center input-bordered input-secondary w-full max-w-xs" />
+                            <input value={values.email} name="email" onBlur={handleBlur} onChange={handleChange} style={{color: "white"}} type="text" placeholder="Email Address" className="skeleton input text-center input-bordered input-secondary w-full max-w-xs" />
                             {touched.email && errors.email?(<div className="text-secondary">{errors.email}</div>):""}
                             <button className="btn btn-primary" type="submit">{loading==true?<span className="loading loading-ring loading-sm"></span>:"Forgot Password"}</button>
                         </div>

@@ -8,7 +8,10 @@
 }
 
 .body-tertiary{
-background-color: #f3d2e0;
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 .navbr-border{
@@ -21,7 +24,10 @@ background-color: #f3d2e0;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #B0E0E6
+  background: #9796f0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .register-page{
@@ -79,12 +85,16 @@ background-color: #f3d2e0;
       background-position: 0% 50%;
   }
 }
+
 .subject-section{
   height: calc(100vh - 70px);
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #CC95C0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
 
 .subject-Tasks{
@@ -97,12 +107,29 @@ background-color: #f3d2e0;
   align-items: center;
 }
 
+.mainspace{
+  background: #77A1D3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
 .subject-alt{
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-wrap:wrap;
+}
+
+.subject-activate{
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,190,222,1) 48%, rgba(0,212,255,1) 100%);
 }
 
 .btn-Edit{
