@@ -70,7 +70,7 @@ export default function Reset(){
                     {touched.newPassword && errors.newPassword?(<div className="text-secondary">{errors.newPassword}</div>):""}
                     <input value={values.password} name="password" onBlur={handleBlur} onChange={handleChange} style={{color:"white"}} type="password" placeholder="Confirm password" className="skeleton input text-center input-bordered input-secondary w-full max-w-xs" />
                     {touched.password && errors.password?(<div className="text-secondary">{errors.password}</div>):""}
-                    <button className="btn btn-primary" type="submit">{loading==true?<span className="loading loading-ring loading-sm"></span>:"Reset"}</button>
+                    <button className="btn btn-primary" type="submit" onClick={()=>navigate("/login")}>{loading==true?<span className="loading loading-ring loading-sm"></span>:"Reset"}</button>
                 </div>
                 
                 {msg?<div className="text-secondary uppercase">{msg}</div>:""}
@@ -78,7 +78,7 @@ export default function Reset(){
                 </div>
             </div>
            
-                    <button className="btn skeleton w-52 relative top-1  dashboard:fixed dashboard:top-4 dashboard:right-4" onClick={()=>navigate("/login")}>Back to Dashboard</button>
+                    <button className="btn skeleton w-52 relative top-1  dashboard:fixed dashboard:top-4 dashboard:right-4" >Back to Dashboard</button>
         </div>
     )
 }
