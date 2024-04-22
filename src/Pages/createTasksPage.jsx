@@ -38,7 +38,9 @@ export default function CreateTasksPage(){
                 content,
                 isCompleted: false
         }
-        createTasks(details)        
+        createTasks(details)
+        setTitle("")
+        setContent("")        
     }
 
     // function for editing the tasks
@@ -51,6 +53,8 @@ export default function CreateTasksPage(){
         }
         updateTasks(details, editedValue._id)
         setIsEditing(false)
+        setTitle("")
+        setContent("")
     }
         
     function PlaceDate() {

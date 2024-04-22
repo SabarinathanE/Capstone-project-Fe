@@ -119,7 +119,7 @@ export default function TasksPage(){
 
                 )
 
-                }) : <div>
+                }) : <div className="subject-alt">
                       <div className="card" style={{background: "#389d8e"}}>
                         <div className="card-body" style={{color: "white"}}>
                           <span style={{fontSize:'100px', textAlign: "center"}}>&#128521;</span>
