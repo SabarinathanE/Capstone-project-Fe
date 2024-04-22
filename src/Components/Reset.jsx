@@ -78,7 +78,7 @@ export default function Reset(){
                 </div>
             </div>
            
-                    <button className="btn skeleton w-52 relative top-1  dashboard:fixed dashboard:top-4 dashboard:right-4" onClick={()=>navigate("/")}>Back to Dashboard</button>
+                    <button className="btn skeleton w-52 relative top-1  dashboard:fixed dashboard:top-4 dashboard:right-4" onClick={()=>navigate("/login")}>Back to Dashboard</button>
         </div>
     )
 }
