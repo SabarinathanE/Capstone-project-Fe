@@ -1,2 +1,2 @@
 //backend api url
-export const API="http://127.0.0.1:3000";
+export const API="https://capstone-project-be-tnip.onrender.com";
