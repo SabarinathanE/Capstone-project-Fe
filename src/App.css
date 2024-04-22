@@ -1,0 +1,269 @@
+*::-webkit-scrollbar{
+  display:none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.body-tertiary{
+background-color: #f3d2e0;
+}
+
+.navbr-border{
+  border: 1px solid black;
+}
+
+.login-page{
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #B0E0E6
+}
+.register-page{
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://wallpapers.com/images/hd/4k-tech-ty39ncgwzl7k3taa.jpg");
+  background-size:cover;
+  
+}
+.forgot-section{
+  cursor: pointer;
+}
+.forgot-page{
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #B0E0E6
+}
+.reset-page{
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #B0E0E6;
+  
+}
+.card-glass {
+  background: rgba(24, 55, 212, 0.995);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(235, 11, 11, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgb(10, 10, 10);
+}
+.gradient-background {
+  background: linear-gradient(135deg,rgb(18, 178, 125),rgb(174, 163, 47),rgb(244, 49, 5));
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+.subject-section{
+  height: calc(100vh - 70px);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subject-Tasks{
+  height: calc(100vh - 70px);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-Edit{
+width: 160px;
+}
+
+.Dropdown{
+  background-color: rgb(120, 211, 239);
+  border: 1px solid black
+}
+
+.dashboard{
+  font-size: 35px;
+}
+
+.dashboard-child{
+  font-size: 30px;
+}
+
+.arr-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 600px;
+  border: 1px solid black;
+}
+
+.button-size{
+  width: 100px;
+}
+
+.button-size2{
+  width: 100px;
+}
+
+@media screen and (min-width:200px) and (max-width:739px) {
+  .topbar-section-1{
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+  .topbar-section-2{
+      display:flex;
+      justify-content: space-evenly;
+  }
+}
+@media screen and (min-width:200px) and (max-width:664px) {
+  .list-section{
+      display:flex;
+      flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+
+  .dashboard{
+     font-size: 25px;
+  }
+
+  .dashboard-child{
+    font-size: 20px;
+  }
+
+  .arr-img{
+    height: 70px;
+    width: 70px;
+    margin-left: 125px;
+  }
+
+  .subject-section{
+    height: calc(100vh - 100px);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card{
+    width: 310px;
+    border: 1px solid black;
+  }
+
+  .subject-Tasks{
+    height: calc(100vh - 150px);
+    display:flex;
+    flex-direction: column;
+  }
+
+  .button-size{
+    width: 100px;
+  }
+  
+  .button-size2{
+    width: 100px;
+    margin-left: 50px;
+  }
+
+  .Dropdown{
+    width: 50px;
+  }
+
+}
+
+@media only screen and ((min-width: 380) or (max-width: 990px)) {
+
+  .dashboard{
+     font-size: 25px;
+  }
+
+  .dashboard-child{
+    font-size: 20px;
+  }
+
+  .arr-img{
+    height: 70px;
+    width: 70px;
+    margin-left: 125px;
+  }
+
+  .subject-section{
+    height: calc(100vh - 66px);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card{
+    width: 310px;
+    border: 1px solid black;
+  }
+
+  .subject-Tasks{
+    height: calc(100vh - 66px);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-size{
+    width: 100px;
+  }
+  
+  .button-size2{
+    width: 100px;
+    margin-left: 50px;
+  }
+
+  .Dropdown{
+    width: 50px;
+
+  }
+
+}
